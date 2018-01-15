@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;  
+  background-color: black;
+  color: seashell;
+  opacity: 0.9;
+}
+
+body{
+  font-size: 22px;	
+} 
+
+.text_content{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-flow: column; 
+  padding: 10px 20px;
+  
+}
+
+/*main container*/
+.body_container{
+    display: flex;
+	justify-content: center;
+	flex-flow: column nowrap;
+	align-items: center;
+	width: 1200px;
+	margin-left: 400px;
+	z-index: 1;
+	position: static;
+}
+
+/*header*/
+.header_container {
+  display: flex;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  padding: 10px;
+  z-index: 2;
+  position: fixed;
+}
+
+.header_container li {
+  display: inline;
+  padding: 10px;
+  margin: 7px;
+}
+
+.header_container span{
+  flex: auto;	
+}
+
+.header_container img{
+  height: 50px;
+  padding: 10px;
+}
+
+/*Our Mission first panel*/
+.our_mission{
+  display: flex;
+  height: 700px;
+  width: 100%;
+  justify-content: center;
+}
+
+.our_mission .background_image{
+	background-image: url("../images/background-missions.jpg"); 
+}
+
+/*Tea Of The Month second panel*/
+.tea_of_the_month{
+ width: 100%;
+ margin-top: 100px;
+  
+}
+
+.images{
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+
+.image{
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  padding: 10px;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  align-content: space-around;
+}
+
+.image img{
+  width: 100%; 
+  margin: 1px;
+}
+
+.image span{
+  padding: 5px;
+  margin: 2px;
+}
+
+/*Locations third panel*/
+.locations{
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 10px; 
+  height: 580px;  
+  align-items: center;
+  justify-content: center;
+  align-content: space-around;
+  width: 1200px; 
+  background-image: url("../images/background-locations.jpg");
+}
+
+.column,
+.column2,
+.column3{
+  width: 300px;	
+  height: 100px;
+  margin: 0px 40px;  
+}
+
+.locations li{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.text h2{
+  padding: 1px;
+  opacity: 0.9; 
+  color: seashell;  
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+/*footer*/
+.footer_container{
+  height:200px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_container .text_content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*copyright*/
+.copyright span{
+  display: inline;
+  text-align: left; 
+  padding: 10px; 
+  margin: 3px;  
+}
