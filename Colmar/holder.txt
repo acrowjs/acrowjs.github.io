@@ -1,0 +1,253 @@
+<body>
+<!-- Header-->
+<header>
+<!--Desktop-->
+<nav class="desktop">
+	<div class="push">
+		<div class="left">
+			<img src="./resources/images/ic-home.svg" class="left"></img>
+			<span class="bold">Colmar </span><span class="bold grey">Academy</span>
+		</div>
+	</div>
+	<div class="right">
+		<span class="right">On Compass</span><span class="right">Online</span><span class="right">Or Companies</span><span class="right">Sign in</span>
+	</div>
+</nav>
+<!--Mobile-->
+<nav class="mobile">
+	<img src="./resources/images/ic-home.svg"></img>
+	<img src="./resources/images/ic-on-campus.svg"></img>
+	<img src="./resources/images/ic-online.svg"></img>
+	<img src="./resources/images/ic-login.svg"></img>
+</nav>
+</header>
+<main>
+<!--Desktop-->
+<div class="desktop">
+	<!--Panel 1-->
+	<div id="panel1">
+		<div class="image">	
+			<img src="./resources/images/test/banner1000X750.jpg"></img>
+		</div>
+		<div class="context">
+			<h1>Learn something<br> new everyday</h1>
+			<h3>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</h3>
+			<div class="button">
+				Start here
+			</div>
+		</div>
+	</div>
+	<!--Panel 2-->
+	<!--<div id="panel2">
+		<div class="left">
+			<div class="image">	
+				<img src="./resources/images/information-main.jpg"></img>
+			</div>
+			<div class="context">
+				<div class="1">
+					<h1>It doesn't hurt to keep practicing</h1>
+					<p>"Curabitur vitae libero in ipsum particular consequat. Aliquarm et  commodo lectus, <br> nec consequat neque. Sed non accumsan uma. Phasellus sed  consequat ex. Etiam <br> eget magna laoreet, efficur dolor  consequat, trisquilla ligula"</p>
+					<h4>Emanuel, Sr Strategist at Hiring.com</h4>
+				</div>
+			</div>
+		</div>
+		<div class="right">
+		
+		</div>
+	</div>-->
+</div>	
+<!--Mobile-->
+<div class="mobile">
+	<!--Panel 1-->
+	<div id="panel1">
+		<div class="image">
+			<img src="./resources/images/test/banner1000X750.jpg"></img>
+		</div>
+		<div class="context">
+			<h1>Learn something<br> new everyday</h1>
+			<h3>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</h3>
+			<div class="button">
+				Start here
+			</div>
+		</div>
+	</div>
+</div>
+</main>
+<footer>
+
+</footer>
+</body>
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+ html{
+ 	font-size: 18px;	
+ }
+ 
+ .bold{
+ 	font-weight: bold;
+ }
+ 
+ .grey{
+ 	color: grey;
+ }
+ 	
+ 	
+ /*Header*/
+ header .desktop{
+ 	display: flex;
+ 	width: 100%;
+ 	height: 3.5rem;
+ 	border: solid 2px blue;
+ 	justify-content: space-around;
+ 	align-items: center;
+ }
+ 
+ header .mobile{
+ 	display: none;
+ }
+ 
+ header .push{
+ 	flex: 1 1 auto;
+ }
+ 
+ header .left{
+ 	display: flex;
+ 	align-items: center;
+ }
+ 
+ .left img{
+ 	height: 3rem;
+ 	padding: 0.5rem;
+ }
+ 
+ .left span {
+ 	font-size: 2rem;
+ 	padding-left: 0.4rem;
+ }
+ 
+ header .right{
+ 	margin-right: 2rem;
+ 	padding: 0.5rem;
+ }
+ 
+ @media only screen and (max-width: 470px){
+ 	header .desktop{
+ 		display:none;
+ 	}
+ 	
+ 	header .mobile{
+ 		display: flex;
+ 		width: 100%;
+ 		height: 2rem;
+ 		align-items: center;
+ 		justify-content: space-around;
+ 	}
+ }
+  
+  	/*Main*/
+  /*panel 1*/
+
+  .desktop #panel1{
+  	width: 100%;
+  	height: 50rem;
+  	display: flex;
+ 	border: solid 2px green;
+ 	align-items: center;
+  	background-color: beige;
+  }
+  
+
+ .desktop .image{
+  	padding: 2rem;
+  }
+  
+
+ main .desktop .context{
+  	width: 90%;
+  	height: 83%;
+  	border: dashed 2px blue;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: space-around;
+ 	flex-flow: column wrap;
+ 	margin-right: 2rem;
+  	background-color: white;
+  }
+  
+
+ .desktop .context h1{
+  	font-size: 4rem;
+  }
+  
+
+ .desktop .context h3{
+  	font-size: 2rem;
+  }
+  
+
+ .desktop .context .button{
+  	width: 60%;
+  	height: 8rem;
+  	background-color: brown;
+ 	color: beige;
+ 	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	font-size: 3rem;
+ }
+ 
+ main .mobile{
+ 	display: none;
+ }
+ /*main mobile rules*/
+ @media only screen and (max-width: 470px){
+ 	main .desktop{
+ 		display: none;
+ 	}
+ 	main .mobile{
+ 		width: 100%;
+ 		height: 40rem;
+ 		display: flex;		
+ 	}
+ 	
+ 	main .mobile #panel1{
+ 		background-color: beige;
+ 	}
+ 	
+ 	main .mobile img{
+ 		width: 100%;
+ 		margin-bottom: 1rem;
+ 	}
+ 	
+ 	main .mobile .context{
+ 		display: flex;
+ 		flex-flow: row wrap;
+ 		align-items: center;
+ 		justify-content: center;
+ 	}
+ 	
+ 	main .mobile .context h1{
+ 		font-size: 3rem;
+ 		padding: 1rem;
+ 	}
+ 
+ 	main .mobile .context h3{
+ 		font-size: 1.25rem;
+ 		line-height: 1.1;
+ 	}
+ 	
+ 	.mobile .context .button{
+ 		width: 14rem;
+ 		height: 5rem;
+ 		background-color: brown;
+ 		color: beige;
+ 		display: flex;
+		align-items: center;
+ 		justify-content: center;
+ 		font-size: 3rem;
+		margin-top: 2rem;
+	}
+ }

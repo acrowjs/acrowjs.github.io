@@ -1,0 +1,162 @@
+# CapstoneProjectColmar
+
+Design Decisions:
+
+
+-Desktop
+
+	Decided to spend time for a good half then for a less 
+
+quality full.
+
+
+Colors: 
+
+Header - Beige for the easiness on the eyes and soothing.
+
+Tan for the hover effect. For good contrast.
+
+Grey as requested by spec.
+
+Banner Bubble - White with 0.5 opacity to see the photo behind. 
+
+Banner Button - Brown for background. Color Beige, for good 
+
+contrast. Crimson for hover effect. 
+
+Side Panel 1 - Dark Brown for matching the img color of banner.  
+
+Smooth transition. Dark Green for matching the green trees in 
+
+the img. White background for text for easy reading.
+
+Side Panel 2 - Dark Purple complementing the dark brown and to 
+
+provide contrast to the beige. Tan for hover effect. Brown for 
+
+read more button. Crimson for active. For a subtle but noticable 
+
+change.
+
+Footer - Black background to help blend the two panels together.
+
+White color for good contrast and ease of reading.
+
+
+Animations:
+
+Banner Bubble - three second transition to set the mood to 
+
+a 'waking up'/ 'easing' into the site.
+
+Side Panel 2 - padding left to make the site more alive and 
+
+interactive. 
+
+
+Fonts:
+
+Used 'Italianno', cursive for banner bubble title. For elegrance 
+
+and to show class.
+
+Used 'Cutive Mono', monospace for panel 1 middle text to 
+
+seperate from the rest of the text and to provide more 
+
+easiblity for reading.
+
+
+Ect:
+
+Decided to leave nav bar on top for a clean experience and 
+
+a moving nav bar for mobile version. 
+
+________________________________________________________________
+
+
+-Mobile
+
+	I did mobile first and spend time for the full site.
+
+
+Colors:
+
+nav bar - greens to compliment the blues. Also for calming 
+
+effect.
+
+body and footer - blues for a calming and clean effect. 
+
+Also to show elegrance. 
+
+Dashed borders for clear seperation and easy on the eyes.
+
+White background for clean and easy readablity.
+
+
+Animations:
+
+panel 2 photo bubbles - active translate to make it feel you're 
+
+reading text messages on the phone.
+
+panel 3 online classes - margin left for more interactive 
+
+experience and visual experience. 
+
+
+Fonts:
+
+Used 'Italianno', cursive  for showing class and elegrance. Used
+
+in the beginning and the end of site to show there's elegrance
+
+throughout the site. 
+
+Used 'Cutive Mono', monospace for second panel for ease of 
+
+readability and a more clean experience. Also to seperate
+
+from the other panels of the page. 
+
+
+Ect:
+
+I choose more of a bubble look for the image and text to give it 
+
+a 'text message conversation' vibe.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
